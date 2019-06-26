@@ -23,7 +23,7 @@ def Bestiary():
     list()
 Bestiary()
 val = input("> ")
-if val == "Draconids":
+if val == "Draconids" or "draconids":
     Draconids()
 else:
     print("not ready yet")

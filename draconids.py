@@ -5,8 +5,8 @@ def Draconids():
     - Basilisk
     - Cockatrice
     """)
-    name = input("> ")
-    if name == "Cockatrice":
+    val = input("> ")
+    if val == "Cockatrice" or "cockatrice":
         Cockatrice()
     else:
         print("not ready yet")
