@@ -10,3 +10,4 @@ def Draconids():
         Cockatrice()
     else:
         print("not ready yet")
+Draconids()
