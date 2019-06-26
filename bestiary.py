@@ -1,4 +1,6 @@
-import draconids
+from draconids import Draconids
+
+
 def list():
     print("""
     - Beasts
@@ -21,9 +23,14 @@ def Bestiary():
     Which category of monsters would you like to explore?
     """)
     list()
-Bestiary()
-val = input("> ")
-if val == "Draconids" or "draconids":
-    Draconids()
-else:
-    print("not ready yet")
+
+
+if __name__ == '__main__':
+    Bestiary()
+    val = input("> ")
+    if val == "Draconids" or "draconids":
+        Draconids()
+
+
+    else:
+        print("not ready yet")
