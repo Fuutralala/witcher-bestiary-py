@@ -24,10 +24,8 @@ def Bestiary():
     """)
     list()
 
-
-
     val = input("> ")
-    if val == "Draconids" or "draconids":
+    if val == "Draconids" or val == "draconids":
         Draconids()
 
 
