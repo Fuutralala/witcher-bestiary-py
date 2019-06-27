@@ -13,6 +13,7 @@ def Draconids():
     - Royal Wyvern
     """)
     val = input("> ")
+
     if val == "Basilisk" or val == "basilisk":
         Basilisk()
     elif val == "Cockatrice" or val == "cockatrice":

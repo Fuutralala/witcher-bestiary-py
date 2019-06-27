@@ -41,3 +41,4 @@ def Basilisk():
     Aard
 
     """)
+Basilisk()
