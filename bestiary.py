@@ -1,5 +1,5 @@
 from draconids import Draconids
-
+from cursed import Cursed
 
 def list():
     print("""
@@ -27,7 +27,8 @@ def Bestiary():
     val = input("> ")
     if val == "Draconids" or val == "draconids":
         Draconids()
-
+    elif val == "Cursed Ones" or val == "cursed ones" or val == "cursed":
+        Cursed()
 
     else:
         print("not ready yet")

@@ -3,10 +3,10 @@ def Basilisk():
     Basilisk is a draconid which sometimes terrorizes communities.
     They have birdlike beaks, webbed wings, hooked talons, and crimson dewlaps.
 
-         In memory of the noble knight Roderick,
-         slain during a valiant struggle against a basilisk.
-         Let's hope the beast choked on his bones.
-         - Gravestone inscription, Vizima cemetery.
+    In memory of the noble knight Roderick,
+    slain during a valiant struggle against a basilisk.
+    Let's hope the beast choked on his bones.
+    - Gravestone inscription, Vizima cemetery.
 
     Contrary to popular belief, basilisks cannot turn
     anything to stone with their gaze.
