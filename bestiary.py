@@ -25,12 +25,11 @@ def Bestiary():
     list()
 
 
-if __name__ == '__main__':
-    Bestiary()
     val = input("> ")
-    if val == "Draconids" or "draconids":
+    if val == "Draconids" or val == "draconids":
         Draconids()
 
 
     else:
         print("not ready yet")
+Bestiary()
