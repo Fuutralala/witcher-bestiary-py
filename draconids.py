@@ -10,13 +10,12 @@ def Draconids():
     - Forktail
     """)
     val = input("> ")
-    if val == "Cockatrice" or "cockatrice":
-        Cockatrice()
-    elif val == "Basilisk" or "basilisk":
+    if val == "Basilisk" or "basilisk":
         Basilisk()
+    elif val == "Cockatrice" or "cockatrice":
+        Cockatrice()
     elif val == "Forktail" or "forktail":
         Forktail()
-
-
+        
     else:
         print("not ready yet")
