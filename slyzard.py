@@ -21,7 +21,7 @@ def Slyzard():
     to injure it with a breath of fire or knock it down with a sonic blast.
     Like wyverns, slyzards also attack with venom-spiked tails.
     Slyzards like to disengage mid-fight to fly into the air
-     and plummet down at high speed while spewing out balls of fire.
+    and plummet down at high speed while spewing out balls of fire.
     Right before these igneous missiles emerge,
     you can observe a fiery ball forming in the monster's maw.
     While airborne, a slyzard can also attack with its claws and teeth.

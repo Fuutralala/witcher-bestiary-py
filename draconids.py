@@ -4,7 +4,8 @@ from cockatrice import Cockatrice
 from royalwyvern import Royalwyvern
 from shrieker import Shrieker
 from silverbasilisk import Silverbasilisk
-from slyzards import Slyzard
+from slyzard import Slyzard
+from wyvern import Wyvern
 
 def Draconids():
     print("""
@@ -13,7 +14,12 @@ def Draconids():
     - Cockatrice
     - Forktail
     - Royal Wyvern
+    - Shrieker
+    - Silver Basilisk
+    - Slyzard / Dracolizard
+    - Wyvern
     """)
+
     val = input("> ")
 
     if val == "Basilisk" or val == "basilisk":
@@ -22,7 +28,7 @@ def Draconids():
         Cockatrice()
     elif val == "Forktail" or val == "forktail":
         Forktail()
-    elif val == "Royal Wyvern" or val == "royal wyvern" or val == "Royalwyvern" or val == "royalwyvern":
+    elif val == "royal wyvern" or val == "Royalwyvern" or val == "royalwyvern":
         Royalwyvern()
     elif val == "Shrieker" or val == "shrieker":
         Shrieker()
@@ -30,6 +36,8 @@ def Draconids():
         Silverbasilisk()
     elif val == "Slyzard" or val == "slyzard" or val == "dracolizard" or val == "Dracolizard":
         Slyzard()
+    elif val == "Wyvern" or val == "wyvern":
+        Wyvern()
 
     else:
         print("not ready yet")
