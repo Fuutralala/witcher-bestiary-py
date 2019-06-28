@@ -1,5 +1,6 @@
 from draconids import Draconids
 from cursed import Cursed
+from elementa import Elementa
 
 def list():
     print("""
@@ -29,6 +30,8 @@ def Bestiary():
         Draconids()
     elif val == "Cursed Ones" or val == "cursed ones" or val == "cursed":
         Cursed()
+    elif val == "Elementa" or val == "elementa":
+        Elementa()
 
     else:
         print("not ready yet")
