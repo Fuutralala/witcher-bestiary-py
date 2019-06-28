@@ -1,3 +1,5 @@
+
+
 def Cursed():
     print("""
     About which Cursed One would you like to learn more?
