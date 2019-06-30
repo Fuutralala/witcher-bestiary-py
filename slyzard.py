@@ -25,4 +25,17 @@ def Slyzard():
     Right before these igneous missiles emerge,
     you can observe a fiery ball forming in the monster's maw.
     While airborne, a slyzard can also attack with its claws and teeth.
+
+
+    Class:
+    Draconid
+
+    Immunity:
+    Fire
+
+    Susceptibility:
+    Grapeshot
+    Draconid oil
+    Aard
+    Quen
     """)

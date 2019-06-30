@@ -14,14 +14,6 @@ def Forktail():
     Class:
     Draconid
 
-    Variations:
-    The Dragon of Fyresdal
-
-    Occurrence:
-    Velen
-    Skellige
-    White Orchard
-
     Susceptibility:
     Golden Oriole
     Grapeshot
