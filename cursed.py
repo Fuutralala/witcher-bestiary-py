@@ -10,11 +10,11 @@ def Cursed():
     About which Cursed One would you like to learn more?
 
     - Archespore
-    - Berserkers
-    - Botchlings
+    - Berserker
+    - Botchling
     - Lubberkin
     - Ulfhedinn
-    - Werewolves
+    - Werewolf
     """)
 
     val = input("> ")

@@ -3,6 +3,9 @@ from earthelemental import EarthElemental
 from firelemental import FireElemental
 from golem import Golem
 from gargoyle import Gargoyle
+from houndwild import HoundWild
+from iceelemental import IceElemental
+from pixie import Pixie
 
 def Elementa():
     print("""
@@ -16,9 +19,6 @@ def Elementa():
     - Hound of the Wild Hunt
     - Ice Elemental
     - Pixies
-    - Apiarian Phantom
-    - Therazane
-
     """)
 
     val = input("> ")
@@ -32,3 +32,9 @@ def Elementa():
         Golem()
     elif val == "Gargoyle" or val == "gargoyle":
         Gargoyle()
+    elif val == "Hound" or val == "hound" or val == "hound of the wild hunt":
+        HoundWild()
+    elif val == "Ice Elemental" or val == "ice elemental":
+        IceElemental()
+    elif val =="Pixie" or val =="pixie" or val =="Pixies" or val =="pixies":
+        Pixie()
